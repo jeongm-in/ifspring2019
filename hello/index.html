@@ -1,32 +1,46 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <style>
-            h1 {
-                color:blue;
-                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                font-size:20px;
-            }
-        </style>
-        <title>
-            Hello World
-        </title>
-    </head>
-    <body>
+
+<head>
+    <meta charset="utf-8" />
+    <style>
+        h1 {
+            color: blue;
+            font-size: 20px;
+        }
+
+        h1#secondHeadline {
+            font-size: 12px;
+        }
+    </style>
+    <title>
+        Hello World
+    </title>
+</head>
+
+<body>
+    <header>
         <h1 style="font-family: arial; color:#aF3434;">
             Hello World!
         </h1>
-        <h1>
+        <h1 id="secondHeadline" class="headlineTwo">
             This is my webpage
         </h1>
+    </header>
+    <section>
+
         <p>
-            This is my first webpage and I'm <em>super</em> <strong>excited</strong> about Interaction Foundations ! ! ! <br><br>
-            
+            This is my first webpage and I'm <em>super</em> <strong>excited</strong> about Interaction Foundations ! !
+            !
+            <br><br>
+
             link to <a href="https://google.com">Google</a>
         </p>
         <img src="https://carriagemuseum.org/wp-content/uploads/2017/03/carrage-home-box.jpg" alt="picture of a cool car">
         <hr>
+    </section>
+    <section>
+
         <ul>
             <li>First item</li>
             <li>Second item</li>
@@ -35,6 +49,11 @@
             <li>Item 1</li>
             <li>Item 2</li>
         </ol>
+    </section>
+    <footer>
+        some additional stuff goes here
+    </footer>
 
-    </body>
+</body>
+
 </html>
