@@ -102,6 +102,7 @@ body{
 .video-info{
     text-align: center;
     font-family: 'Noto Sans JP', sans-serif;
+	font-size:1.15vw;
     width:52vw;
     height:10vh;
     display:flex;
