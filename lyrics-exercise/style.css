@@ -55,7 +55,6 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    z-index:3;
 }
 .lyric-text{
     width: 26vw;
@@ -64,6 +63,7 @@ body{
     padding-top:1.5vh;
     padding-bottom:1.5vh;
     text-align:left;
+    font-family: 'Noto Sans JP', sans-serif;
     font-size:1.25vw;
 
 }
@@ -72,7 +72,6 @@ body{
     font-size:1.16vw;
 }
 .main{
-    font-family: 'Noto Sans JP', sans-serif;
 
     display: flex;
     flex-direction: row;
@@ -101,6 +100,8 @@ body{
 }
 
 .video-info{
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
     width:52vw;
     height:10vh;
     display:flex;
