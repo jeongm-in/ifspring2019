@@ -83,13 +83,13 @@ img {
 
 /* Add an asterisk (*) to the last year in the Game of Thrones seasons list. */
 
-.seasons>ul:last-child:after {
+#game-of-thrones.seasons>ul:last-child:after {
     content: "*";
 }
 
 /* Add the text "* Final Season" on the next line after the Game of Thrones season list. Make it 0.7rem, and color it to be #999. */
 
-.synopsis:before {
+#game-of-thrones.synopsis:before {
     content: "* Final Season";
     font-size: 0.7rem;
     color: #999;
