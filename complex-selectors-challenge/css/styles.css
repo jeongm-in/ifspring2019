@@ -1,0 +1,97 @@
+/* Set the margin-bottom of the header to 3rem. */
+
+header {
+    margin-bottom: 3rem;
+}
+
+/* Set the line-height of all paragraphs to 1.6. */
+
+p {
+    line-height: 1.6;
+}
+
+/* Make the "See All..." links 0.8em, and uppercase. */
+
+a.see-all {
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+/* Make the show titles 2.5rem. */
+
+.shows>li>h1 {
+    font-size: 2.5rem;
+}
+
+/* Make the section-titles 1rem and uppercase. */
+
+.shows>li>section>h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color:red;
+}
+
+/* Make all title fonts light weight. */
+
+.shows>li>h1 {
+    font-weight: 100;
+}
+
+/* Make the cast images width:100%; */
+
+img {
+    width: 100%;
+}
+
+/* Make each castmember element width:25%; */
+
+.cast>ul>li {
+    width: 25%;
+}
+
+/* Add a 1px border above each show — without unintentionally adding borders elsewhere. */
+
+.shows>li {
+    border-top: 1px solid black;
+}
+
+/* Make the navigation tab with the .selected class be bold and black. */
+
+.selected a, .selected a:visited {
+    font-weight: bold;
+    color: #000;
+}
+
+/* Make the castmember labels 0.8rem. */
+
+.cast>ul li div {
+    font-size: 0.8rem;
+}
+
+/* Make the actor/actress names bold. */
+
+.cast>ul li div:last-of-type {
+    font-style: italic;
+}
+
+/* Make the character names italic. */
+
+.cast>ul li div:first-of-type {
+
+    font-weight: bold;
+
+}
+
+/* Add an asterisk (*) to the last year in the Game of Thrones seasons list. */
+
+.seasons>ul:last-child:after {
+    content: "*";
+}
+
+/* Add the text "* Final Season" on the next line after the Game of Thrones season list. Make it 0.7rem, and color it to be #999. */
+
+.synopsis:before {
+    content: "* Final Season";
+    font-size: 0.7rem;
+    color: #999;
+}
