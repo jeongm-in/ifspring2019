@@ -1,0 +1,71 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin-top: 0;
+}
+
+header {
+    text-align: center;
+    /* background-color: rgba(116,185,255,0.5); */
+    height: 480px;
+    background-image: url('../image/starlight.jpg');
+    background-position: top;
+    padding-top: 150px;
+    color: white;
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+header h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+section{
+    padding-top:40px;
+    /* box-sizing: border-box; */
+}
+
+section h3 {
+    text-align:center;
+    font-size:40px;
+    font-weight:700;
+    margin-bottom:30px;
+}
+#section2{
+    background-color: rgba(116,185,255,1);
+}
+
+#section2 p {
+    font-size:18px;
+    font-weight:400;
+    /* padding-top: 10px; */
+    line-height: 1.4;
+    color: rgba(0,0,0,1);
+}
+
+#section2 img {
+    width: 400px;
+    height: 300px;
+    float:right;
+    padding-left:40px;
+    padding-bottom:36px
+}
+
+.center-column{
+    /* border:1px solid black; */
+    width:960px;
+    margin: auto;
+}
+
+/* *{
+    margin:0;
+    padding:0;
+} */
