@@ -9,146 +9,140 @@ h1, h2, h3, h4, h5, p {
 }
 
 header {
-    text-align: center;
     height: 480px;
+    box-sizing: border-box;
+    padding-top: 150px;
     background-image: url('../image/starlight.jpg');
     background-position: top;
-    padding-top: 150px;
+    text-align: center;
     color: white;
-    box-sizing: border-box;
 }
 
 header h1 {
-    font-size: 80px;
     margin-bottom: 0;
+    font-size: 80px;
 }
 
 header h2 {
-    font-size: 30px;
     margin-bottom: 0;
+    font-size: 30px;
 }
-section{
-    width:100%;
+
+section {
     width: 100%;
-    display:inline-block;
-  
-    padding-top:40px;
-    /* box-sizing: border-box; */
+    width: 100%;
+    padding-top: 40px;
+    
 }
 
 section h3 {
-    text-align:center;
-    font-size:40px;
-    font-weight:700;
-    margin-bottom:30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
 }
-#section2{
+
+#section2 {
+    height: 670px;
     background-color: #f5cd79;
-    height:670px;
 }
 
 #section2 p {
-    font-size:18px;
-    font-weight:400;
-    /* padding-top: 10px; */
+    font-size: 18px;
     line-height: 1.4;
+    font-weight: 400;
 }
 
 #section2 img {
     width: 400px;
     height: 300px;
-    float:right;
-    margin-left:40px;
-    margin-bottom:36px;
+    margin-left: 40px;
+    margin-bottom: 36px;
+    float: right;
     border: 1px solid black;
 }
 
-.center-column{
-    /* border:1px solid black; */
-    width:960px;
+.center-column {
+    width: 960px;
     margin: auto;
 }
 
-.group-line{
-    width:960px;
-    height:150px;
-    /* border:1px solid black; */
-    margin-bottom:25px;
+.group-line {
+    width: 960px;
+    height: 150px;
+    margin-bottom: 25px;
 }
-.group{
-    width:480px;
-    height:150px;
-    margin:0;
+
+.group {
+    width: 480px;
+    height: 150px;
+    margin: 0;
 }
-.group-right{
-    float:right;
+
+.group-right {
+    float: right;
 }
-.group-left{
-    float:left;
+
+.group-left {
+    float: left;
 }
-.group-img{
-    width:200px;
-    height:150px;
-    float:left;
-    margin-top:2px;
+
+.group-img {
+    width: 200px;
+    height: 150px;
+    margin-top: 2px;
+    float: left;
 }
-.group p{
-    margin:0;
+
+.group p {
+    margin: 0;
 }
-.group-text{
-    /* width: 240px;
-    height:130px; */
-    width:230px;
-    float:left;
-    height:150px;
+
+.group-text {
+    width: 230px;
+    height: 150px;
+    padding-top: 4px;
+    padding-left: 12px;
     box-sizing: border-box;
-    padding-left:12px;
-    padding-top:4px;
-    /* border:1px solid black; */
+    float: left;
+}
 
+.group-title {
+    font-size: 20px;
+    font-weight: bold;
 }
-.group-title{
-    font-size:20px;
-    font-weight:bold;
-    /* padding-top:17px; */
-}
-.group-content{
-    font-size:18px;
-    font-weight:normal;
 
+.group-content {
+    font-size: 18px;
+    font-weight: normal;
 }
-#section3{
- background-color: #DDD;
- height:690px;
- box-sizing: border-box;
-}
-#section4{
-    height:400px;
-    padding-top:40px;
-    background-color:#786fa6;
-    color:rgba(255,255,255,1);
+
+#section3 {
+    height: 690px;
     box-sizing: border-box;
-
+    background-color: #DDD;
 }
-#section4 p{
-    text-align: center;
-    font-size:26px;
+
+#section4 {
+    height: 400px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    background-color: #786fa6;
+    color: rgba(255, 255, 255, 1);
+}
+
+#section4 p {
     padding-right: 120px;
     padding-left: 120px;
-    /* font-weight:bold; */
+    text-align: center;
+    font-size: 26px;
 }
-#footer{
-    background-color:#303952;
-    /* background-color:rgba(0,0,0,0.25); */
+
+#footer {
     height: 100px;
-    padding-top:40px;
-    font-size:18px;
-    color:white;
+    padding-top: 40px;
+    font-size: 18px;
     box-sizing: border-box;
-
+    background-color: #303952;
+    color: white;
 }
-
-/* *{
-    margin:0;
-    padding:0;
-} */
