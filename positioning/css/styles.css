@@ -1,0 +1,43 @@
+section:first-child aside{
+    float: right;
+}
+
+section:nth-child(2){
+    position:relative;
+}
+section:nth-child(2) aside{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+section:nth-child(3) aside{
+    background-color:green;
+    position: fixed;
+    right:100px;
+    top:50px;
+    z-index: 4000;
+}
+section:last-child {
+    position:relative;
+
+}
+section:last-child aside:first-of-type{
+    background-color:red;
+    z-index:100;
+    position:absolute;
+    left:400px;
+    top:300px;
+    
+}
+
+section:last-child aside:last-of-type{
+    background-color:black;
+    z-index:50;
+    position:absolute;
+    left:410px;
+    top:310px;
+
+}
+
+
