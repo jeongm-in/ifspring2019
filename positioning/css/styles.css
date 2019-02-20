@@ -20,23 +20,28 @@ section:nth-child(3) aside{
 }
 section:last-child {
     position:relative;
+    display:
 
 }
 section:last-child aside:first-of-type{
     background-color:red;
     z-index:100;
     position:absolute;
-    left:400px;
-    top:300px;
-    
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
 }
 
 section:last-child aside:last-of-type{
     background-color:black;
     z-index:50;
     position:absolute;
-    left:410px;
-    top:310px;
+    left:50%;
+    top:50%;
+    margin-left:10px;
+    margin-top:10px;
+    transform:translate(-50%, -50%);
+
 
 }
 
