@@ -10,8 +10,8 @@ body {
 }
 
 h1 {
-     font-size: 30px;
-     margin-bottom: 40px;
+    font-size: 30px;
+    margin-bottom: 40px;
 }
 
 .button_container {
@@ -26,7 +26,7 @@ h1 {
     text-align: center;
 }
 
-.button_container_relative{
+.button_container_relative {
     position: relative;
 }
 
@@ -53,7 +53,6 @@ a#btn_spotify:hover {
     color: #000;
 }
 
-
 a#btn_twitter {
     display: inline-block;
     height: 40px;
@@ -72,16 +71,23 @@ a#btn_twitter {
 
 a#btn_twitter:hover {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
-    background: #2ebfec; /* Old browsers */
-    background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+    background: #2ebfec;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #2ebfec 0%, #28a5cb 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2ebfec), color-stop(100%, #28a5cb));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #2ebfec 0%, #28a5cb 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #2ebfec 0%, #28a5cb 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #2ebfec 0%, #28a5cb 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #2ebfec 0%, #28a5cb 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb', GradientType=0);
+    /* IE6-9 */
 }
-
 
 a#btn_amazon {
     display: block;
@@ -102,10 +108,9 @@ a#btn_amazon:hover {
     background-color: #fc9a18;
 }
 
-
 a#btn_indiegogo {
     display: inline-block;
-    margin:auto;
+    margin: auto;
     margin-top: 100px;
     padding: 8px 16px;
     background-color: #fff;
@@ -123,152 +128,470 @@ a#btn_indiegogo:hover {
     background-color: #eb1478;
 }
 
-
-
-
-a#btn_coca_cola{
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform:translate(-50%, -50%);
+a#btn_coca_cola {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
-img#img_coca_cola{
-    width:150px;
-    
+img#img_coca_cola {
+    width: 150px;
 }
 
-img#img_coca_cola:hover{
-    width:250px;
+img#img_coca_cola:hover {
+    width: 250px;
 }
 
-
-
-a#btn_apple{
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform:translate(-50%, -50%);
-    font-size:125px;
-    color:#0A0A0A
+a#btn_apple {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 125px;
+    color: #0A0A0A
 }
 
-a#btn_apple:hover #wheel_apple{
-    display:inline;
+a#btn_apple:hover #wheel_apple {
+    display: inline;
 }
 
-#wheel_apple{
-    width:25px;
-    position:absolute;
-    left:50%;
-    top:57%;
-    transform:translate(-50%, -50%);
-    z-index:100;
-    display:none;
+#wheel_apple {
+    width: 25px;
+    position: absolute;
+    left: 50%;
+    top: 57%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    display: none;
 }
 
-a#btn_ibm{
-    width:300px;
-    height:300px;
-    color:black;
+a#btn_ibm {
+    width: 300px;
+    height: 300px;
+    color: black;
 }
-img#img_ibm{
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform:translate(-50%, -50%);
-    height:100px;
-    z-index:100;
 
+img#img_ibm {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    z-index: 100;
 }
 
 img#img_ibm:hover {
     /* https://www.w3schools.com/howto/howto_css_shake_image.asp */
-    animation: shake 0.5s; 
-  
+    animation: shake 0.5s;
     /* When the animation is finished, start again */
-    animation-iteration-count: infinite; 
-  
+    animation-iteration-count: infinite;
 }
+
 @keyframes shake {
-    0% { transform: translate(calc(-50% + 1px), calc(-50% + 1px)) rotate(0deg); }
-    10% { transform: translate(calc(-50% - 1px), calc(-50% - 2px)) rotate(-1deg); }
-    20% { transform: translate(calc(-50% - 3px), calc(-50%)) rotate(1deg); }
-    30% { transform: translate(calc(-50% + 3px), calc(-50% + 2px)) rotate(0deg); }
-    40% { transform: translate(calc(-50% + 1px), calc(-50% - 1px)) rotate(1deg); }
-    50% { transform: translate(calc(-50% - 1px), calc(-50% + 2px)) rotate(-1deg); }
-    60% { transform: translate(calc(-50% - 3px), calc(-50% + 1px)) rotate(0deg); }
-    70% { transform: translate(calc(-50% + 3px), calc(-50% + 1px)) rotate(-1deg); }
-    80% { transform: translate(calc(-50% - 1px), calc(-50% - 1px)) rotate(1deg); }
-    90% { transform: translate(calc(-50% + 1px), calc(-50% + 2px)) rotate(0deg); }
-    100% { transform: translate(calc(-50% + 1px), calc(-50% - 2px)) rotate(-1deg); }
+    0% {
+        transform: translate(calc(-50% + 1px), calc(-50% + 1px)) rotate(0deg);
+    }
+    10% {
+        transform: translate(calc(-50% - 1px), calc(-50% - 2px)) rotate(-1deg);
+    }
+    20% {
+        transform: translate(calc(-50% - 3px), calc(-50%)) rotate(1deg);
+    }
+    30% {
+        transform: translate(calc(-50% + 3px), calc(-50% + 2px)) rotate(0deg);
+    }
+    40% {
+        transform: translate(calc(-50% + 1px), calc(-50% - 1px)) rotate(1deg);
+    }
+    50% {
+        transform: translate(calc(-50% - 1px), calc(-50% + 2px)) rotate(-1deg);
+    }
+    60% {
+        transform: translate(calc(-50% - 3px), calc(-50% + 1px)) rotate(0deg);
+    }
+    70% {
+        transform: translate(calc(-50% + 3px), calc(-50% + 1px)) rotate(-1deg);
+    }
+    80% {
+        transform: translate(calc(-50% - 1px), calc(-50% - 1px)) rotate(1deg);
+    }
+    90% {
+        transform: translate(calc(-50% + 1px), calc(-50% + 2px)) rotate(0deg);
+    }
+    100% {
+        transform: translate(calc(-50% + 1px), calc(-50% - 2px)) rotate(-1deg);
+    }
 }
 
-
-a#btn_nerf{
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform:translate(-50%, -50%);
+a#btn_nerf {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
-img#img_nerf{
-    width:200px;
+img#img_nerf {
+    width: 200px;
     transition: transform 0.8s;
     perspective: 1000px;
 }
-img#img_nerf:hover{
+
+img#img_nerf:hover {
     transform: rotateY(180deg);
 }
 
-
-a#btn_instagram{
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform:translate(-50%, -50%);
+a#btn_instagram {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     font-size: 125px;
 }
-i.fa-instagram{
-    color:black;
+
+i.fa-instagram {
+    color: black;
 }
 
-i.fa-instagram:hover{
+i.fa-instagram:hover {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffdf9e+1,ffc273+25,e56969+50,c1558b+75,8a49a1+100 */
-    background-image: linear-gradient(45deg, rgba(255,223,158,1) 1%,rgba(255,194,115,1) 25%,rgba(229,105,105,1) 50%,rgba(193,85,139,1) 75%,rgba(138,73,161,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    color:transparent;
+    background-image: linear-gradient(45deg, rgba(255, 223, 158, 1) 1%, rgba(255, 194, 115, 1) 25%, rgba(229, 105, 105, 1) 50%, rgba(193, 85, 139, 1) 75%, rgba(138, 73, 161, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdf9e', endColorstr='#8a49a1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdf9e', endColorstr='#8a49a1', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
 }
 
-a#______________{
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform:translate(-50%, -50%);
-}a#______________{
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform:translate(-50%, -50%);
-}a#______________{
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform:translate(-50%, -50%);
-}a#______________{
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform:translate(-50%, -50%);
+a#btn_facebook {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a#______________ {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+i.fa-facebook {
+    color: #3c5a99;
+    font-size: 125px;
+    transition: transform .8s ease-in-out;
+    /* -webkit-box-shadow: 4px 4px 2px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    4px 4px 2px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         4px 4px 2px 0px rgba(50, 50, 50, 0.75);*/
+}
+
+i.fa-facebook:hover {
+    transform: rotate(360deg);
+}
+
+a#btn_oldnavy {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #163e69;
+    border-radius: 50%;
+    width: 220px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+a#btn_oldnavy:visited {
+    color: white;
+}
+
+a#btn_oldnavy:hover {
+    filter: grayscale(75%);
+}
+
+p#p_oldnavy {
+    margin: 0;
+}
+
+a#btn_harley_davidson:hover #img_hd {
+    display: block;
+    background-color: black;
+    border: 10px solid black;
+}
+
+img#img_hd {
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    z-index: 200;
+    top: 50%;
+    display: none;
+    transform: translate(-50%, -50%);
+}
+
+img#img_hd_t {
+    width: 180px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 200;
+    transform: translate(-50%, -50%);
+}
+
+a#craigslist {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-family:"Times New Roman", Times, serif;
+    color: blue;
+    text-decoration: none;
+    display:inline-block;
+    width: 250px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin:0;
+}
+
+a#craigslist:visited {
+    color: blue;
+}
+
+a#craigslist:hover{
+    background-color:#EEE;
+}
+
+/* https://stackoverflow.com/a/13955165 */
+
+@keyframes blink {
+    50% {
+        opacity: 0.0;
+    }
+}
+
+@-webkit-keyframes blink {
+    50% {
+        opacity: 0.0;
+    }
+}
+
+.blink {
+    animation: blink 1s step-start 0s infinite;
+    -webkit-animation: blink 1s step-start 0s infinite;
+}
+
+a#btn_lyft {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color:#ff00bf;
+    font-size:100px;
+}
+
+
+@keyframes DRIVE {
+    0% {
+        transform: translate(-50%,-75%) ;
+    }
+    10% {
+        transform: translate(calc(-50% + 4px),-50%) ;
+    }
+    15% {
+        transform: translate(calc(-50% + 6px),-50%) ;
+
+    }
+    20% {
+        transform: translate(calc(-50% + 4px),-50%) ;
+
+    }
+    25% {
+        transform: translate(calc(-50% + 2px),-50%) ;
+
+    }
+    30% {
+        transform: translate(calc(-50% - 1px),-50%) ;
+    }
+    35% {
+        transform: translate(calc(-50% - 2.5px)),-50% ;
+
+    }
+    40% {
+        transform: translate(calc(-50% - 3.5px),-50%) ;
+    }
+    45% {
+        transform: translate(calc(-50% - 5px),-50%) ;
+
+    }
+    50% {
+        transform: translate(calc(-50% - 7px)),-50% ;
+    }
+    55%{
+        transform: translate(calc(-50% - 10px),-50%) ;
+    }
+    60% {
+        transform: translate(calc(-50% - 11px),-50%) ;
+    }
+    65% {
+        transform: translate(calc(-50% - 14px),-50%) ;
+
+    }
+    70% {
+        transform: translate(calc(-50% - 15px),-50%) ;
+    }
+    72.5%{
+        transform: translate(calc(-50% - 16px),-50%) ;
+    }
+    75%{
+        transform: translate(calc(-50% - 15px),-50%) ;
+    }
+    77.5%{
+        transform: translate(calc(-50% - 14px),-50%) ;
+    }
+    80% {
+        transform: translate(calc(-50% - 12px),-50%) ;    }
+    82.5%{
+        transform: translate(calc(-50% - 10px),-50%) ;
+    }
+    85%{
+        transform: translate(calc(-50% - 8px),-50%) ;
+    }
+    87.5%{
+        transform: translate(calc(-50% - 6px),-50%) ;
+    }
+    90% {
+        transform: translate(calc(-50% - 4px),-50%) ;
+    }
+    92.5%{
+        transform: translate(calc(-50% - 2px),-50%) ;
+    }
+    95%{
+        transform: translate(calc(-50% - 1px),-50%) ;
+    }
+    97.5%{
+        transform: translate(calc(-50% + 1px),-50%) ;
+    }
+    100% {
+        transform: translate(-50%, -50%) ;
+    }
 }
 
 
 
-a#______________{
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform:translate(-50%, -50%);
+
+a#btn_lyft:hover{
+    font-size:125px;
+
+    animation: DRIVE 1s step-start 0s;
+    -webkit-animation: DRIVE 1s step-start 0s infinite;
+
+    animation-iteration-count: 1;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+a#______________ {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a#______________ {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a#______________ {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a#______________ {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a#______________ {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a#______________ {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a#______________ {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a#______________ {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a#______________ {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a#______________ {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a#______________ {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a#______________ {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
