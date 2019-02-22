@@ -500,24 +500,47 @@ a#btn_lyft:hover{
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-a#______________ {
+a#btn_samsung {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+a#btn_samsung img{
+    padding: 15px 15px;
+    width:200px;
+    border:3px solid;
+    border-image: linear-gradient(45deg, #6dd0ff 51%,#1428a0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-image-slice: 1;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6dd0ff', endColorstr='#1428a0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+a#btn_samsung:visited{
+    background-color:none;
+    
+
+}
+#infinite{
+    position: absolute;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow:inset 0px 0px 0px 2.5px #000;  
+    background-color:#FFF;
+    right:5%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    display:none;
+    z-index:100;
+    /* animation-delay:1s; */
+
+}
+
+a#btn_samsung:hover #infinite{
+    display:block;
+}
+
 
 a#______________ {
     position: absolute;
