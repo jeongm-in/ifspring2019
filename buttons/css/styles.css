@@ -1,5 +1,3 @@
-<style>
-
 body {
     color: #333;
     font-family: 'Open Sans', sans-serif;
@@ -28,7 +26,9 @@ h1 {
     text-align: center;
 }
 
-
+.button_container_relative{
+    position: relative;
+}
 
 a#btn_spotify {
     display: inline-block;
@@ -124,4 +124,151 @@ a#btn_indiegogo:hover {
 }
 
 
-</style>
+
+
+a#btn_coca_cola{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+}
+
+img#img_coca_cola{
+    width:150px;
+    
+}
+
+img#img_coca_cola:hover{
+    width:250px;
+}
+
+
+
+a#btn_apple{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    font-size:125px;
+    color:#0A0A0A
+}
+
+a#btn_apple:hover #wheel_apple{
+    display:inline;
+}
+
+#wheel_apple{
+    width:25px;
+    position:absolute;
+    left:50%;
+    top:57%;
+    transform:translate(-50%, -50%);
+    z-index:100;
+    display:none;
+}
+
+a#btn_ibm{
+    width:300px;
+    height:300px;
+    color:black;
+}
+img#img_ibm{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    height:100px;
+    z-index:100;
+
+}
+
+img#img_ibm:hover {
+    /* https://www.w3schools.com/howto/howto_css_shake_image.asp */
+    animation: shake 0.5s; 
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite; 
+  
+}
+@keyframes shake {
+    0% { transform: translate(calc(-50% + 1px), calc(-50% + 1px)) rotate(0deg); }
+    10% { transform: translate(calc(-50% - 1px), calc(-50% - 2px)) rotate(-1deg); }
+    20% { transform: translate(calc(-50% - 3px), calc(-50%)) rotate(1deg); }
+    30% { transform: translate(calc(-50% + 3px), calc(-50% + 2px)) rotate(0deg); }
+    40% { transform: translate(calc(-50% + 1px), calc(-50% - 1px)) rotate(1deg); }
+    50% { transform: translate(calc(-50% - 1px), calc(-50% + 2px)) rotate(-1deg); }
+    60% { transform: translate(calc(-50% - 3px), calc(-50% + 1px)) rotate(0deg); }
+    70% { transform: translate(calc(-50% + 3px), calc(-50% + 1px)) rotate(-1deg); }
+    80% { transform: translate(calc(-50% - 1px), calc(-50% - 1px)) rotate(1deg); }
+    90% { transform: translate(calc(-50% + 1px), calc(-50% + 2px)) rotate(0deg); }
+    100% { transform: translate(calc(-50% + 1px), calc(-50% - 2px)) rotate(-1deg); }
+}
+
+
+a#btn_nerf{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+}
+
+img#img_nerf{
+    width:200px;
+    transition: transform 0.8s;
+    perspective: 1000px;
+}
+img#img_nerf:hover{
+    transform: rotateY(180deg);
+}
+
+
+a#btn_instagram{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    font-size: 125px;
+}
+i.fa-instagram{
+    color:black;
+}
+
+i.fa-instagram:hover{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffdf9e+1,ffc273+25,e56969+50,c1558b+75,8a49a1+100 */
+    background-image: linear-gradient(45deg, rgba(255,223,158,1) 1%,rgba(255,194,115,1) 25%,rgba(229,105,105,1) 50%,rgba(193,85,139,1) 75%,rgba(138,73,161,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdf9e', endColorstr='#8a49a1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+a#______________{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+}a#______________{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+}a#______________{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+}a#______________{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+}
+
+
+
+a#______________{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+}

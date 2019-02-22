@@ -20,9 +20,8 @@ section:nth-child(3) aside{
 }
 section:last-child {
     position:relative;
-    display:
-
 }
+
 section:last-child aside:first-of-type{
     background-color:red;
     z-index:100;
