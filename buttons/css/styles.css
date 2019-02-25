@@ -14,6 +14,10 @@ h1 {
     margin-bottom: 40px;
 }
 
+.no_padding{
+    padding: 0;
+}
+
 .button_container {
     border: 1px solid #ddd;
     margin: 0 10px 10px 0;
@@ -542,12 +546,38 @@ a#btn_samsung:hover #infinite{
 }
 
 
-a#______________ {
+a#btn_michaelkors {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    text-decoration: none;
+    color:black;
 }
+
+p#p_michaelkors {
+    font-weight:bold;
+    font-family: Helvetica, sans-serif;
+    display:inline-block;
+    width:260px;
+    font-size: 32px;
+    margin:0;
+    padding:0;
+    
+}
+
+
+a#btn_michaelkors:visited{
+    color:black;
+}
+
+
+
+a#btn_michaelkors:hover{
+    color:white;
+    background-color:black;
+}
+
 
 a#______________ {
     position: absolute;
@@ -556,65 +586,245 @@ a#______________ {
     transform: translate(-50%, -50%);
 }
 
-a#______________ {
+a#btn_ideo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color:black;
+}
+
+a#btn_ideo:visited{
+    color:inherit;
+
+}
+
+p#p_ideo{
+    display: inline-block;
+    width:280px;
+    font-size:35px;
+    font-weight:bold;
+}
+
+a#btn_ideo:hover p#p_ideo{
+    font-size:45px;
+}
+
+a#btn_ideo:hover #ideo1{
+    color:#65b9b7;
+}
+a#btn_ideo:hover #ideo2{
+    color:#855334;
+}
+a#btn_ideo:hover #ideo3{
+    color:#e05923;
+}
+
+
+a#btn_sardellastl {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Six Caps', sans-serif;
+    font-size:75px;
+    display:inline-block;
+    width:250px;
+    font-weight:bold;
+    text-decoration: none;
+    background-color:#EEE;
+}
+
+a#btn_sardellastl:visited {
+    color:inherit;
+}
+
+
+
+.blue_white{
+    text-shadow: 4px 2px 2px rgba(0, 0, 255, 1);
+    color:white;
+}
+.teal_blue{
+    text-shadow: 4px 2px 2px teal;
+    color:blue;
+}
+.emerald_white{
+    text-shadow: 4px 2px 2px #00ffce;
+    color:white;
+}
+
+a#btn_sardellastl:hover .blue_white{
+    text-shadow: 4px 2px 2px teal;
+    color:blue;
+}
+
+
+a#btn_sardellastl:hover .emerald_white{
+    text-shadow: 4px 2px 2px rgba(0, 0, 255, 1);
+    color:white;
+}
+
+
+a#btn_sardellastl:hover .teal_blue{
+    text-shadow: 4px 2px 2px #00ffce;
+    color:white;
+}
+
+a#btn_nike {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
-a#______________ {
+#nike{
+    width:200px;
+}
+a#btn_nike:hover{
+    filter:invert(1);
+}
+a#btn_moo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color:#219170;
+    font-size:50px;
+    display:inline-block;
+    width:200px;
+    text-decoration: none;
+}
+
+/* https://stackoverflow.com/a/6943704 */
+#text_moo{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+
+a#btn_moo:hover #text_moo{
+    transition: 4s;
+    visibility: visible;
+    opacity: 1;
+}
+
+a#btn_stjude {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color:#676a6f;
+}
+
+a#btn_stjude p{
+    margin:0;
+    padding:0;
+    font-family: 'Crimson Text', serif;
+}
+
+#p_jude_1{
+    font-size:50px;
+}
+
+#p_jude_2{
+    font-size:18px;
+}
+a#btn_stjude:hover{
+    color:#c10f3a;
+}
+
+a#btn_hsn {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
-a#______________ {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+#div_hsn{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background-color:#0077c8;
+    position:relative;
 }
 
-a#______________ {
-    position: absolute;
-    left: 50%;
-    top: 50%;
+#p_hsn{
+    letter-spacing: 1px;
+    font-family:"Open Sans", sans-serif;
+    color:white;
+    font-size:40px;
+    position:absolute;
+    left:50%;
+    top: 10%;
     transform: translate(-50%, -50%);
+    font-weight: bold;
 }
 
-a#______________ {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+a#btn_hsn:hover{
+    filter:sepia(100%);
+
 }
 
-a#______________ {
+a#btn_hulkhogan {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    font-size:150px;
+    font-weight:bold;
+    text-decoration: none;
+    color:black;
 }
 
-a#______________ {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+a#btn_hulkhogan:hover{
+    text-shadow: 5px 3px 0px rgba(254, 220, 0, 1);
 }
 
-a#______________ {
+
+
+a#btn_missouribotanicalgarden {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    text-decoration: none;
+    color:#416910;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+#text_mobg{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    font-size:30px;
 }
 
-a#______________ {
-    position: absolute;
+.fa-spa{
+    transition: visibility 0s, opacity 0.5s linear;
+    visibility: visible;
+    opacity: 1;
+    z-index:100;
+    position:absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-size:120px;
+}
+
+a#btn_missouribotanicalgarden:hover #text_mobg{
+    transition: 4s;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+a#btn_missouribotanicalgarden:hover .fa-spa{
+    transition: 4s;
+    visibility: hidden;
+    opacity: 0;
 }
