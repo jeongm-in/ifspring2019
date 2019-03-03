@@ -88,11 +88,19 @@ h1, h2, h3, h4, h5, p {
 
 .ig_item{
     width:330px;
+    margin-left:20px;
+    margin-bottom:10px;
     /* position:relative; */
 }
-.ig_it_check{
-    display: inline;
-}
+
 .ig_it_detail{
-    display: inline;
+    margin-left:5px;
+
+}
+
+.step_image{
+    width: 260px;
+    height:260px;
+    margin-left:auto;
+    margin-right: auto;
 }
