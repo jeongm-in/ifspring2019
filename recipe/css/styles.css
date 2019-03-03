@@ -7,6 +7,11 @@ body {
     /* margin-left:10px; */
 }
 
+section{
+    margin-bottom:20px;
+
+}
+
 h1, h2, h3, h4, h5, p {
     padding: 0;
     margin-top:0;
@@ -24,9 +29,17 @@ h1, h2, h3, h4, h5, p {
     margin-bottom: 10px;
 }
 
+#additional_text{
+    margin-left:auto;
+    margin-right:auto;
+    width:330px;
+    text-align:center;
+}
+
 #finshed_image {
     width: 330px;
     height: 330px;
+    padding:0;
     margin-left: auto;
     margin-right:auto;
     display:block;
@@ -84,6 +97,9 @@ h1, h2, h3, h4, h5, p {
 
 .step_title{
     text-align: center;    
+    font-size:2em;
+    margin-bottom:15px;
+    margin-top:10px;
 }
 
 .ig_item{
@@ -95,6 +111,31 @@ h1, h2, h3, h4, h5, p {
 
 .ig_it_detail{
     margin-left:5px;
+}
+
+.steps{
+    width:320px;
+    /* border:1px solid black; */
+    margin:auto;
+    /* position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+    margin-bottom:15px;
+}
+
+.step_text{
+    margin:auto;
+    text-align: center;
+}
+.step_number{
+    margin-bottom:10px;
+    text-align:left;
+}
+.step_detail{
+    font-size: 0.75em;
+    display:inline-block;
+    width:280px;
 
 }
 
@@ -103,4 +144,5 @@ h1, h2, h3, h4, h5, p {
     height:260px;
     margin-left:auto;
     margin-right: auto;
+    margin-bottom:5px;
 }
