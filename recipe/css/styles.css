@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, p {
     margin-right:auto;
     display:block;
     
+    
 }
 
 #info {
@@ -81,9 +82,10 @@ h1, h2, h3, h4, h5, p {
 }
 
 .ig_item{
-    width:360px;
+    width:330px;
+    /* position:relative; */
 }
-.ig_it_chect{
+.ig_it_check{
     display: inline;
 }
 .ig_it_detail{
