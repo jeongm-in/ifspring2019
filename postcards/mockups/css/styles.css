@@ -1,0 +1,68 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    height:100%;
+}
+
+.cards{
+    max-width: 800px;
+    height: 600px;
+    margin:auto;
+    background-size: cover;
+    margin-top:100px;
+    position: relative
+
+}
+.view_landscape{
+    height: 500px;
+    width: 720px;
+}
+
+.view_portrait{
+    height: 700px;
+    width: 500px;
+}
+
+.quote{
+    position:absolute;
+    bottom: 30px;
+    right:50px;
+    font-size:20px;
+    color:white;
+}
+#solo_l{
+    background-image: url(images/solo.jpg);
+}
+
+#solo_p{
+    background-image: url(images/solo_p.jpg);
+}
+
+#yoda_l{
+    background-image: url(images/yoda.png);
+}
+
+#yoda_p{
+    background-image: url(images/yoda_p.png);
+}
+
+#ackbar_l{
+    background-image: url(images/ackbar.jpg);
+}
+
+#ackbar_p{
+    background-image: url(images/ackbar_p.jpg);
+}
+
+/* 
+.img_l{
+    width: 800px;
+    height:471px;
+}
+
+.img_p{
+    width:540px;
+    height:960px;
+} */
