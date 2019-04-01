@@ -1,0 +1,228 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+html, body{
+    height:100%;
+}
+body{
+    box-sizing:border-box;
+}
+a{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index: 5;
+}
+.card{
+    width:100%;
+    height:100%;
+    position: relative;
+    background-image:url(images/yoda.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+
+.text{
+    position:absolute;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    left: 60%;
+    top: 80%;
+    text-shadow: 1px 1px #777;
+}
+
+.line{
+font-size: 60px;
+}
+
+.attribute{
+    text-align: right;
+    font-size: 40px;
+}
+.oneline{
+    display: none;
+}
+.threeline{
+    display: none;
+}
+
+@media (max-width: 2200px) {
+    .text{
+        top:75%;
+    }
+    .line {
+        font-size: 50px;
+    }
+    .attribute{
+        font-size:34px;
+    }
+}
+@media (max-width: 1700px) {
+    .text{
+        top:60%;
+        left:60%;
+    }
+    .line {
+        font-size: 45px;
+    }
+    .attribute{
+        font-size:34px;
+    }
+}
+
+@media (max-width: 1545px) {
+    .text{
+        top:50%;
+        left:57%;
+    }
+    .line {
+        font-size: 45px;
+    }
+    .attribute{
+        font-size:34px;
+    }
+    
+}
+
+@media (max-width: 1455px) {
+    .text{
+        top:65%;
+        left:70%;
+    }
+    .line {
+        font-size: 45px;
+    }
+    .attribute{
+        font-size:34px;
+    }
+   
+    .twoline{
+        display:none;
+    }
+    .threeline{
+        display:inline-block;
+        width:100%;
+        font-size:40px;
+    }
+}
+
+
+
+@media (max-width: 1000px) {
+    .text{
+        top:50%;
+        left:64%;
+    }
+    .line {
+        font-size: 45px;
+    }
+    .attribute{
+        font-size:34px;
+    }
+   
+    .twoline{
+        display:none;
+    }
+    .threeline{
+        display:inline-block;
+        width:100%;
+        font-size:40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .text{
+        top:85%;
+        left:12%;
+    }
+    .line {
+        font-size: 35px;
+    }
+    .attribute{
+        font-size:24px;
+    }
+   
+    .threeline{
+        display:none;
+    }
+    .twoline{
+        display:inline-block;
+        width:100%;
+        font-size:40px;
+    }
+}
+
+@media (max-width: 630px) {
+    .text{
+        top:75%;
+        left:5%;
+    }
+    .line {
+        font-size: 35px;
+        text-align:center;
+    }
+    .attribute{
+        font-size:24px;
+    }
+    .twoline{
+        display:none;
+    }
+    .threeline{
+        display:inline-block;
+        width:100%;
+        font-size:40px;
+    }
+}
+
+
+@media (max-height: 640px) {
+    .text{
+        top:75%;
+       
+    }
+ 
+}
+@media (max-height: 640px) and (max-width:1300px){
+    .text{
+        top:70%;
+       
+    }
+ 
+}
+
+@media (max-height: 520px) and (max-width:900px){
+    .text{
+        top:65%;
+    }
+ 
+}
+@media (max-height: 478px) {
+    .text{
+        top:75%;
+       
+    }
+ 
+}
+@media (max-height: 478px) and (max-width:500px){
+    .text{
+        top:55%;
+       
+    }
+ 
+}
+
+
+
+@media (max-height: 440px) {
+    .text{
+        top:55%;
+       
+    }
+ 
+}
+
