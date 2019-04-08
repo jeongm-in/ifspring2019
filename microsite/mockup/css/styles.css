@@ -29,7 +29,10 @@
 
 .front-second-introduction{
     margin-top:30px;
-    font-size: 80px;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+
+    
     overflow-y:hidden;
 }
 
@@ -65,21 +68,37 @@
 .child{
     width: 25vw;
     height: 90vh;
+    text-align:center;
+
 }
 
 .child-img{
     width:25vw;
     height:25vw;
+    object-fit: cover;
+
 }
 
 .child-text{
     width:25vw;
     overflow-y:hidden;
     text-align:center;
-
+    font-family: 'Raleway', sans-serif;
+    font-size:35px;
 }
 
 .child-content{
     width:25vw;
     height: 20vh;
+    text-align: left;
+    display: inline-block;
+    margin: auto;
+}
+
+.em-line{
+    color:#e84118;
+    font-size:40px;
+    font-weight: bold;
+    
+    
 }
