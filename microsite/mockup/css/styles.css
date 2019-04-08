@@ -4,6 +4,9 @@
     overflow-x:hidden;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .navbar {
     background:rgba(F,F,F,1);   /* for latest browsers */
@@ -62,7 +65,7 @@
 .box{
     width: 90vw;
     height: 92vh;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .child{
@@ -73,10 +76,9 @@
 }
 
 .child-img{
-    width:25vw;
-    height:25vw;
+    width:23vw;
+    height:23vw;
     object-fit: cover;
-
 }
 
 .child-text{
@@ -90,15 +92,14 @@
 .child-content{
     width:25vw;
     height: 20vh;
-    text-align: left;
     display: inline-block;
-    margin: auto;
 }
 
 .em-line{
     color:#e84118;
     font-size:40px;
     font-weight: bold;
+    margin-bottom:0;
     
     
 }
