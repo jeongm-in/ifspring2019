@@ -1,0 +1,27 @@
+- sticky nav bar 
+- white background 
+aloha, full screen throw 
+
+front page 
+image full screen  2 pages scrollable
+nav bar transparent, sticky
+
+individual page: 
+// colored, solid 
+keep it transparent, and picture
+title, stand out, background photo put dark filter 
+text white, 
+everything else: white 
+put some photos
+Geology 
+picture 
+description 
+
+menu : hamburger, collapse nav bar 
+one paragraph 
+
+
+
+
+
+

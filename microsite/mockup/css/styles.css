@@ -1,6 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+
+}
+
 .navbar {
     background:rgba(F,F,F,1);   /* for latest browsers */
-    width: 80vw;
+    width: 100vw;
     margin-top: 3vh;
     font-size: 2rem;
     text-shadow: 2px 2px 2px #949494;
@@ -11,7 +18,7 @@
   }
 
 #wrapper{
-    width: 80vw;
+    width: 100vw;
     height:200vh;
     background-color:white;
 
@@ -21,12 +28,15 @@
     height: 100vh;
 }
 
-#title-text{
-    font-size: 8rem;
+.title-text{
+    font-size: 4em;
     text-align:center;
     color:white;
     text-shadow: 2px 2px 2px #949494;
     text-decoration:none;
+}
+.title-text:hover{
+    text-decoration: none;
 }
 
 #front-first{
@@ -34,6 +44,9 @@
     background-size: cover;
 }
 
-.emphasis{
-    font-size:3rem;
+.icon{
+    width: 40px;
+    height:40px;
+    filter: brightness(0) invert(1);
+
 }

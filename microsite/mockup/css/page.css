@@ -1,9 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+
 .navbar {
     background:rgba(F,F,F,1);   /* for latest browsers */
-    width: 80vw;
+    width: 100vw;
     margin-top: 3vh;
     font-size: 2rem;
     text-shadow: 2px 2px 2px #333;
+    z-index:5;
  }
 
  body {
@@ -11,15 +19,22 @@
   }
 
 #wrapper{
-    width: 80vw;
+    width: 100vw;
     background-color:white;
-    padding-bottom: 7.5vh;
+    padding-bottom: 12.5vh;
+}
+
+.title-text{
+    font-size: 5em;
+    text-align:center;
+    color:white;
+    text-shadow: 2px 2px 2px #949494;
+    text-decoration:none;
 }
 .title-image{
     background-repeat: no-repeat;
-
     background-size: cover;
-    height:50vh;
+    height:350px;
 }
 .page-adventure{
     background-image:url("../images/wild-away-589639-unsplash.jpg");  
@@ -29,6 +44,7 @@
 .page-hawaii{
     background-image:url("../images/hawaii/remi-yuan-560057-unsplash.jpg");  
     background-position: center center;
+    
   }
 
 .page-food{
@@ -42,7 +58,7 @@
 }
 
 .description{
-    width: 70vw;
+    width: 84vw;
     margin:auto;
     margin-top:7.5vh;
 }
@@ -54,11 +70,19 @@
 }
 .des-text-block{
     width: 40vw;
-    height: 10vw;
 }
-.des-text{
+.des-text-title{
+    overflow-y:hidden;
 
 }
 
 .des-text-1{
+}
+
+
+.icon{
+    width: 40px;
+    height:40px;
+    filter: brightness(0) invert(1);
+
 }
