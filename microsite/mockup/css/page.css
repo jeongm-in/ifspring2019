@@ -1,0 +1,64 @@
+.navbar {
+    background:rgba(F,F,F,1);   /* for latest browsers */
+    width: 80vw;
+    margin-top: 3vh;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px #333;
+ }
+
+ body {
+    background-color: #333 !important;
+  }
+
+#wrapper{
+    width: 80vw;
+    background-color:white;
+    padding-bottom: 7.5vh;
+}
+.title-image{
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    height:50vh;
+}
+.page-adventure{
+    background-image:url("../images/wild-away-589639-unsplash.jpg");  
+    background-position: center center;
+}
+
+.page-hawaii{
+    background-image:url("../images/hawaii/remi-yuan-560057-unsplash.jpg");  
+    background-position: center center;
+  }
+
+.page-food{
+    background-image:url("../images/food/fruit-tasting-maui-2.jpg"); 
+    background-position: 100% 80%;
+}
+
+.page-sightseeing{
+    background-image:url("../images/tom-henderson-1256764-unsplash.jpg");  
+    background-position: center center;
+}
+
+.description{
+    width: 70vw;
+    margin:auto;
+    margin-top:7.5vh;
+}
+
+.des-image{
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+}
+.des-text-block{
+    width: 40vw;
+    height: 10vw;
+}
+.des-text{
+
+}
+
+.des-text-1{
+}

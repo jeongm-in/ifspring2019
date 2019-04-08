@@ -1,0 +1,39 @@
+.navbar {
+    background:rgba(F,F,F,1);   /* for latest browsers */
+    width: 80vw;
+    margin-top: 3vh;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px #949494;
+ }
+
+ body {
+    background-color: #333 !important;
+  }
+
+#wrapper{
+    width: 80vw;
+    height:200vh;
+    background-color:white;
+
+}
+
+.section{
+    height: 100vh;
+}
+
+#title-text{
+    font-size: 8rem;
+    text-align:center;
+    color:white;
+    text-shadow: 2px 2px 2px #949494;
+    text-decoration:none;
+}
+
+#front-first{
+    background-image:url("../images/zetong-li-1298054-unsplash.jpg");
+    background-size: cover;
+}
+
+.emphasis{
+    font-size:3rem;
+}
