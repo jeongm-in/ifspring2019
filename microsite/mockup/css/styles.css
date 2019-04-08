@@ -19,13 +19,18 @@
 
 #wrapper{
     width: 100vw;
-    height:200vh;
     background-color:white;
 
 }
 
 .section{
     height: 100vh;
+}
+
+.front-second-introduction{
+    margin-top:30px;
+    font-size: 80px;
+    overflow-y:hidden;
 }
 
 .title-text{
@@ -49,4 +54,32 @@
     height:40px;
     filter: brightness(0) invert(1);
 
+}
+
+.box{
+    width: 90vw;
+    height: 92vh;
+    margin-bottom: 80px;
+}
+
+.child{
+    width: 25vw;
+    height: 90vh;
+}
+
+.child-img{
+    width:25vw;
+    height:25vw;
+}
+
+.child-text{
+    width:25vw;
+    overflow-y:hidden;
+    text-align:center;
+
+}
+
+.child-content{
+    width:25vw;
+    height: 20vh;
 }
