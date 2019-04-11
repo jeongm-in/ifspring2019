@@ -5,18 +5,24 @@
 }
 
 
+body {
+    background-color: #333 !important;
+    
+  }
+
+
 .navbar {
     background:rgba(F,F,F,1);   /* for latest browsers */
     width: 100vw;
-    margin-top: 3vh;
-    font-size: 2rem;
+    margin-top: 15px;
+    font-size: 30px;
     text-shadow: 2px 2px 2px #333;
     z-index:5;
+    /* font-family: 'Forum', cursive; */
+    font-family: 'Raleway', sans-serif;
+
  }
 
- body {
-    background-color: #333 !important;
-  }
 
 #wrapper{
     width: 100vw;
@@ -25,16 +31,34 @@
 }
 
 .title-text{
-    font-size: 5em;
+    margin-top: 50px;
+    font-size: 80px;
     text-align:center;
     color:white;
-    text-shadow: 2px 2px 2px #949494;
+    text-shadow: 2px 2px 2px #AAA;
     text-decoration:none;
+    z-index:5;
+
 }
 .title-image{
     background-repeat: no-repeat;
     background-size: cover;
-    height:350px;
+    height:400px;
+    opacity: 0.85;
+    z-index:2;
+}
+.filt{
+    width:100vw;
+    height:400px;
+    background-color:rgba(0,0,0,0.5);
+    z-index:3;
+    position: absolute;
+}
+
+.filt-above{
+    width:100vw;
+    height:400px;
+    position: absolute;
 }
 .page-adventure{
     background-image:url("../images/wild-away-589639-unsplash.jpg");  
@@ -64,21 +88,36 @@
 }
 
 .des-image{
-    width: 20vw;
-    height: 20vw;
+    width: 260px;
+    height: 260px;
     object-fit: cover;
 }
 .des-text-block{
-    width: 40vw;
+    width: 600px;
 }
 .des-text-title{
     overflow-y:hidden;
+    font-family: 'Forum', cursive;
+    font-weight: bold;
 
 }
-
-.des-text-1{
+.des-text-subhead{
+    font-size: 22px;
 }
 
+.des-text-small{
+    color : #666;
+    font-size:12px;
+}
+
+.des-text-content{
+    font-size:18px;
+    font-family: 'Crimson Text', serif;
+}
+
+.des-text-item{
+    margin-bottom:20px;
+}
 
 .icon{
     width: 40px;

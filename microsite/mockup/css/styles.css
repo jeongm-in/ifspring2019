@@ -11,14 +11,23 @@ html{
 .navbar {
     background:rgba(F,F,F,1);   /* for latest browsers */
     width: 100vw;
-    margin-top: 3vh;
-    font-size: 2rem;
-    text-shadow: 2px 2px 2px #949494;
+    margin-top: 15px;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #333;
+    z-index:5;
+    /* font-family: 'Forum', cursive; */
+    font-family: 'Raleway', sans-serif;
+
+    font-size:32px;
+ }
+ .nav-link{
+    color:#FFF;
+ }
+ .nav-link:hover{
+    color:#FFF;
+    text-shadow: 2px 2px 2px #CCC;
  }
 
- body {
-    background-color: #333 !important;
-  }
 
 #wrapper{
     width: 100vw;
@@ -34,25 +43,30 @@ html{
     margin-top:30px;
     font-size: 40px;
     font-family: 'Raleway', sans-serif;
-
-    
     overflow-y:hidden;
 }
 
 .title-text{
-    font-size: 4em;
+    font-size: 80px;
     text-align:center;
     color:white;
     text-shadow: 2px 2px 2px #949494;
     text-decoration:none;
+    font-family: 'Expletus Sans', cursive;
+
+    overflow-y:hidden;
+
 }
+
 .title-text:hover{
     text-decoration: none;
+    font-size: 85px;
 }
 
 #front-first{
     background-image:url("../images/zetong-li-1298054-unsplash.jpg");
     background-size: cover;
+    width: 100vw;
 }
 
 .icon{
@@ -93,6 +107,7 @@ html{
     width:25vw;
     height: 20vh;
     display: inline-block;
+    overflow-y:hidden;
 }
 
 .em-line{
@@ -102,4 +117,36 @@ html{
     margin-bottom:0;
     
     
+}
+
+
+
+.mobile-nav{
+    display:none;
+}
+
+@media (max-width: 1130px) {
+    .title-text{
+        font-size: 70px;
+    }
+    .title-text:hover{
+        font-size:75px;
+    }
+}
+
+@media (max-width: 950px) {
+    .title-text{
+        font-size: 70px;
+    }
+    .title-text:hover{
+        font-size:75px;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .mobile-nav{
+        display:block;
+    }
 }
