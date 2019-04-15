@@ -26,6 +26,8 @@ html{
  .nav-link:hover{
     color:#FFF;
     text-shadow: 2px 2px 2px #CCC;
+    transition:0.2s;
+    transform:scale(1.1);
  }
 
 
@@ -60,7 +62,8 @@ html{
 
 .title-text:hover{
     text-decoration: none;
-    font-size: 85px;
+    transition:0.2s;
+    transform:scale(1.1);
 }
 
 #front-first{
@@ -119,8 +122,6 @@ html{
     
 }
 
-
-
 .mobile-nav{
     display:none;
 }
@@ -150,3 +151,4 @@ html{
         display:block;
     }
 }
+

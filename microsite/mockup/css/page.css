@@ -22,8 +22,21 @@ body {
     font-family: 'Raleway', sans-serif;
 
  }
+ .nav-link{
+    color:#FFF;
+ }
+ .nav-link:hover{
+    color:#FFF;
+    text-shadow: 2px 2px 2px #CCC;
+    transition:0.2s;
+    transform:scale(1.1);
+ }
 
-
+ .fa-link{
+    font-size:16px;
+    vertical-align: middle;
+}
+   
 #wrapper{
     width: 100vw;
     background-color:white;
@@ -38,6 +51,7 @@ body {
     text-shadow: 2px 2px 2px #AAA;
     text-decoration:none;
     z-index:5;
+    font-family: 'Forum', cursive;
 
 }
 .title-image{

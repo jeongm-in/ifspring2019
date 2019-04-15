@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background:rgba(F,F,F,1);   /* for latest browsers */
+    width: 100vw;
+    margin-top: 15px;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #333;
+    z-index:5;
+    /* font-family: 'Forum', cursive; */
+    font-family: 'Raleway', sans-serif;
+
+    font-size:32px;
+ }
+ .nav-link{
+    color:#FFF;
+ }
+ .nav-link:hover{
+    color:#FFF;
+    text-shadow: 2px 2px 2px #CCC;
+    transition:0.2s;
+    transform:scale(1.1);
+ }
+
+
+#wrapper{
+    width: 100vw;
+    background-color:white;
+
+}
+
+.section{
+    height: 100vh;
+}
+
+.front-second-introduction{
+    margin-top:30px;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    overflow-y:hidden;
+}
+
+.title-text{
+    font-size: 80px;
+    text-align:center;
+    color:white;
+    text-shadow: 2px 2px 2px #949494;
+    text-decoration:none;
+    font-family: 'Expletus Sans', cursive;
+
+    overflow-y:hidden;
+
+}
+
+.title-text:hover{
+    text-decoration: none;
+    transition:0.2s;
+    transform:scale(1.1);
+}
+
+#front-first{
+    background-image:url("../images/zetong-li-1298054-unsplash.jpg");
+    background-size: cover;
+    width: 100vw;
+}
+
+.icon{
+    width: 40px;
+    height:40px;
+    filter: brightness(0) invert(1);
+
+}
+
+.box{
+    width: 90vw;
+    height: 92vh;
+    margin-bottom: 40px;
+}
+
+.child{
+    width: 25vw;
+    height: 90vh;
+    text-align:center;
+
+}
+
+.child-img{
+    width:23vw;
+    height:23vw;
+    object-fit: cover;
+}
+
+.child-text{
+    width:25vw;
+    overflow-y:hidden;
+    text-align:center;
+    font-family: 'Raleway', sans-serif;
+    font-size:35px;
+}
+
+.child-content{
+    width:25vw;
+    height: 20vh;
+    display: inline-block;
+    overflow-y:hidden;
+}
+
+.em-line{
+    color:#e84118;
+    font-size:40px;
+    font-weight: bold;
+    margin-bottom:0;
+    
+    
+}
+
+.mobile-nav{
+    display:none;
+}
+
+@media (max-width: 1130px) {
+    .title-text{
+        font-size: 70px;
+    }
+    .title-text:hover{
+        font-size:75px;
+    }
+}
+
+@media (max-width: 950px) {
+    .title-text{
+        font-size: 70px;
+    }
+    .title-text:hover{
+        font-size:75px;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .mobile-nav{
+        display:block;
+    }
+}
+
