@@ -142,6 +142,8 @@ html {
     background-color: rgba(72, 116, 176, 0.85);
     font-size: 30px;
     z-index: 30;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 #close-menu {
@@ -306,5 +308,10 @@ html {
         font-size:40px;
 
     }
+    .fa-bars{
+        margin-left:25px;
+        margin-top:25px;
+    }
     
 }
+
