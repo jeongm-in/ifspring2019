@@ -8,9 +8,7 @@
     <link href="css/page.css" rel=stylesheet>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
@@ -28,9 +26,24 @@
 </head>
 
 <body>
+    <div class="mobile-nav-expand" id="mobile-nav-expand-expand">
+        <div class="mobile-nav-expand-view d-flex flex-column">
+            <div class="d-flex flex-row-reverse">
+                <i class="fas fa-times" id="close-menu"></i>
+            </div>
+            <a class="nav-link nav-pills" href="index.html">Front page</a>
+            <a class="nav-link nav-pills " href="Hawaii.html">Hawaii</a>
+            <a class="nav-link nav-pills " href="Adventure.html">Adventure</a>
+            <a class="nav-link nav-pills " href="Sightseeing.html">Sightseeing</a>
+            <a class="nav-link nav-pills " href="Food.html">Food</a>
+        </div>
+    </div>
+    <i class="fas fa-arrow-circle-up" id="go-top"></i>
     <div class="title-image page-sightseeing ">
         <div class="filt">
-
+            <div class="mobile-nav">
+                <i class="fas fa-bars" id="hamburger-menu"></i>
+            </div>
         </div>
         <div class="filt-over d-flex flex-column justify-content-between align-items-center">
             <nav class="nav navbar justify-content-around align-items-center navbar-static-top" id="navnavnav">
