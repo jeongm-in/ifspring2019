@@ -40,7 +40,7 @@ body {
 #wrapper{
     width: 100vw;
     background-color:white;
-    padding-bottom: 12.5vh;
+    padding-bottom: 12.5vmax;
 }
 
 .title-text{
@@ -96,9 +96,10 @@ body {
 }
 
 .description{
-    width: 84vw;
+    width: 84vw;    
     margin:auto;
-    margin-top:7.5vh;
+    margin-top:50px;
+    flex-direction: row;
 }
 
 .des-image{
@@ -106,6 +107,13 @@ body {
     height: 260px;
     object-fit: cover;
 }
+
+
+.des-image-2{
+    display:none;
+}
+
+
 .des-text-block{
     width: 600px;
 }
@@ -137,5 +145,37 @@ body {
     width: 40px;
     height:40px;
     filter: brightness(0) invert(1);
+
+}
+
+
+@media (max-width: 1130px) {
+
+    .description{
+        flex-direction: column;
+        width: 75vw;
+    }
+    .des-image-1{
+        display:none;
+    }
+
+    .des-image-2{
+        display:flex;
+    }
+
+    .des-text-title{
+        text-align: center;
+        margin-top:15px;
+    }
+
+}
+
+
+
+@media (max-width: 1000px) {
+
+#navnavnav{
+    display:none;
+}
 
 }
