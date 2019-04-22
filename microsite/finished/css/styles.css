@@ -1,0 +1,218 @@
+
+.section {
+    height: 100vh;
+}
+
+.front-second-introduction {
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    overflow-y: hidden;
+}
+
+.title-text {
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px #949494;
+    text-decoration: none;
+    font-family: 'Expletus Sans', cursive;
+    overflow-y: hidden;
+}
+
+.title-text:hover {
+    text-decoration: none;
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+#front-first {
+    background-image: url("../images/zetong-li-1298054-unsplash.jpg");
+    background-size: cover;
+    width: 100vw;
+}
+#title-2 {
+    display:none;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    filter: brightness(0) invert(1);
+}
+
+.box {
+    width: 90vw;
+    height: 92vh;
+    margin-bottom: 40px;
+    flex-direction: row;
+}
+
+.child {
+    width: 25vw;
+    height: 90vh;
+    text-align: center;
+}
+
+.child-img {
+    width: 23vw;
+    height: 23vw;
+    object-fit: cover;
+}
+
+.child-text {
+    width: 25vw;
+    overflow-y: hidden;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+}
+
+.child-content {
+    width: 25vw;
+    height: 20vh;
+    display: inline-block;
+    overflow-y: hidden;
+}
+
+.em-line {
+    color: #e84118;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+@media (max-width: 1130px) {
+    .title-text {
+        font-size: 70px;
+    }
+    .title-text:hover {
+        font-size: 72px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .title-text {
+        font-size: 60px;
+    }
+    .title-text:hover {
+        transition: 0;
+        font-size: 60px;
+        transform: none;
+    }
+    #navnavnav {
+        display: none;
+    }
+    .mobile-nav {
+        display: block;
+    }
+    #footer-div{
+        display:none !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    #navnavnav {
+        display: none;
+    }
+    .box {
+        flex-direction: column !important;
+        height: auto;
+    }
+    .child {
+        width: 600px;
+        height: 600px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .child-img {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+    }
+    .child-text {
+        margin-bottom: 10px;
+        width: 300px;
+    }
+    .child-content {
+        font-size: 16px;
+        margin-top: 15px;
+        height: auto;
+        width: 550px
+    }
+}
+
+@media (max-width:850px) {
+    .title-text {
+        font-size: 50px;
+    }
+    .mobile-nav-expand-view {
+        width: 300px;
+    }
+}
+
+@media (max-width:700px) {
+    .child {
+        width: 550px;
+        height: 550px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .child-img {
+        width: 360px;
+        height: 360px;
+        object-fit: cover;
+    }
+    .child-content {
+        font-size: 15px;
+        margin-top: 15px;
+        height: auto;
+        width: 300px
+    }
+}
+
+@media (max-width:650px) {
+    .title-text {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:600px) {
+    .title-text {
+        font-size: 60px;
+    }
+    #title-1 {
+        display: none;
+    }
+    #title-2 {
+        display: block;
+    }
+}
+
+@media (max-width:500px) {
+    .child {
+        width: 480px;
+        height: 480px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .child-img {
+        width: 320px;
+        height: 320px;
+        object-fit: cover;
+    }
+    .child-content {
+        font-size: 14px;
+        margin-top: 15px;
+        height: auto;
+        width: 300px
+    }
+    #go-top {
+        bottom: 20px;
+        right: 20px;
+        font-size: 40px;
+    }
+    .fa-bars {
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+}

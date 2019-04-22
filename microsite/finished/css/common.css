@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #333 !important;
+}
+
+.navbar {
+    background: rgba(F, F, F, 1);
+    /* for latest browsers */
+    width: 100vw;
+    margin-top: 15px;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #333;
+    z-index: 5;
+    /* font-family: 'Forum', cursive; */
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav-link {
+    color: #FFF;
+}
+
+.nav-link:hover {
+    color: #FFF;
+    text-shadow: 2px 2px 2px #CCC;
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.fa-link {
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+#wrapper {
+    width: 100vw;
+    background-color: white;
+    padding-bottom: 12.5vmax;
+}
+
+
+#mobile-source-link{
+    color: white;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    filter: brightness(0) invert(1);
+}
+
+.fa-bars {
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 40px;
+    color: white;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.mobile-nav-expand {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    z-index: 25;
+    position: fixed;
+}
+
+.mobile-nav-expand-view {
+    width: 30vw;
+    height: 100vh;
+    padding: 20px 20px;
+    background-color: rgba(72, 116, 176, 0.85);
+    font-size: 30px;
+    z-index: 30;
+    font-family: 'Raleway', sans-serif;
+}
+
+#close-menu {
+    color: #444;
+}
+
+#close-menu:hover {
+    cursor: pointer;
+    color: #000;
+}
+
+#go-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 130;
+    color: rgba(71, 71, 71, 0.75);
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#go-top:hover {
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.footer {
+    height: 130px;
+    background-color: #227093;
+}
+
+.footer-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-text-name {
+    vertical-align: text-top;
+}
+
+.fa-github {
+    color: white;
+}
+
+#footer-button {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
